@@ -1,0 +1,1 @@
+This is the README file for the Landing page project provided by The Odin Project.
