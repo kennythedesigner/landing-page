@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-  padding: 0;`
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -11,4 +11,212 @@ body {
   display: flex; /* makes the header a flex container */
   justify-content: space-between; /* spaces out the items */
   align-items: center;  /*vertically centers the items */
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 40px; /* adds padding to the header */
+
+}
+.logo, p {
+  font-size: 24px; /* sets the font size of the logo text */
+  font-weight: 900;
+  color: white;
+  margin: 0; /* removes default margin */
+  text-decoration: none; /* removes underline from links */
+}
+.links {
+  display: flex; /* makes the links a flex container */
+  gap: 20px; /* adds space between the links */
+}
+.links a {
+  text-decoration: none; /* removes underline from links */
+  color: #e5e7eb; /* sets the color of the links */ 
+  font-size: 18px; /* sets the font size of the links */
+  font-weight: 500; /* sets the font weight of the links */ 
+
+}
+
+/* Main Section CSS 
+makes the main section a flex container 
+spaces out the items 
+vertically centers the items
+adds padding to the main section
+sets the background color of the main section
+sets the color of the text in the main section
+sets the font size of the heading in the main section
+adds space below the heading
+sets the font size of the subtext in the main section
+adds space below the subtext
+*/
+.main--section {
+  display: flex; /* makes the main section a flex container */
+  justify-content: space-between; /* spaces out the items */  
+  align-items: center; /* vertically centers the items */
+  padding: 40px;  /* adds padding to the main section */
+  background-color: #1f2937;
+  color: white;
+}
+.text--div {
+  display: flex;
+  flex-direction: column; /* stacks the items vertically */
+  align-items: flex-start;
+  width: 50%;
+  gap: 10px;
+}
+
+.text--div h1{
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px; /* adds space below the heading */
+}
+.text--div .subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 20px; /* adds space below the subtext */
+  line-height: 1.5; /* sets the line height of the subtext */ 
+}
+
+.text--div button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding:  10px 20px;  /* adds padding to the button */
+  border: none; /* removes the border from the button */
+  border-radius: 5px;
+  cursor: pointer; /* changes the cursor to a pointer when hovering over the button */
+  transition: background-color 0.3s ease; /* adds a transition effect to the button */
+}
+
+.text--div button:hover {
+  background-color: #2d67c4;
+  transform: scale(1.05);
+}
+
+/* Second Section  CSS*/
+
+.second--section {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.second--section figure {
+  width: 350px;
+  margin: 0;
+}
+.second--section img {
+  width: 400px;
+  height: 400px;
+  gap: 30px;
+  object-fit: fill;
+  border: 4px solid #f3af19;
+  border-radius: 5px;
+}
+.second--section figcaption {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color:  #3882f6;
+  margin-top: 10px; /* adds space above the caption */
+}
+
+/* Third section
+makes the third section a flex container
+spaces out the items
+vertically centers the items
+*/
+
+.third--section {
+  background-color: #e5e7eb;
+  padding: 100px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-container {
+  max-width: 800px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.quote-author {
+  font-size: 24px;
+  font-style: bold;
+  color: #1f2937;
+  font-weight: 100;
+  text-align: right;
+}
+
+/* Fourth section */
+
+.fourth--section {
+  display: flex;  /* makes the fourth section a flex container */
+  justify-content: center;  /* centers the items */
+  align-items: center;  /* vertically centers the items */
+  padding: 100px 200px; /* adds padding to the fourth section */
+}
+
+.CTA--container {
+  background-color: #3882f6;
+  padding: 50px 100px; /* adds padding to the CTA container */
+  border-radius: 8px;
+  display: flex; /* makes the CTA container a flex container */
+  justify-content: space-between; /* spaces out the items */
+  align-items: center; /* vertically centers the items */
+  width: 100%;  /* sets the width of the CTA container */
+}
+
+.CTA--area h3 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.CTA--area p {
+  color: #e5e7eb;
+  margin: 5px 0 0 0;  
+  font-size: 18px; 
+}
+
+.CTA--button button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 8px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.CTA--button button:hover {
+  background-color: white;
+  color: #3882F6;
+  transition: all 0.3s ease;
+}
+
+/* Footer section */
+
+.footer--section {
+  display: flex;  /* makes the footer a flex container */
+  justify-content: center;  /* centers the items */
+  align-items: center;  /* vertically centers the items */
+  backgroun`d-color: #1f2937;
+  padding: 40px 0; 
+  margin: 0; /*gets rid of any previous margin */
+  width: 100%;
+}
+
+.footer--section p {
+  font-size: 18px;
+  color: #e5e7eb; /* changes color of text */
 }
