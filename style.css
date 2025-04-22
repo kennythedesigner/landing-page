@@ -210,7 +210,7 @@ vertically centers the items
   display: flex;  /* makes the footer a flex container */
   justify-content: center;  /* centers the items */
   align-items: center;  /* vertically centers the items */
-  backgroun`d-color: #1f2937;
+  background-color: #1f2937;
   padding: 40px 0; 
   margin: 0; /*gets rid of any previous margin */
   width: 100%;
